@@ -1,0 +1,25 @@
+open cmd or any editor console and run below command
+#Installation and creation
+step1: npm init react-app my-app
+        if don't have nodejs installed then install and try again.
+        here my-app is name of reactjs app which is going create by you, free to use any name you like but without space.
+        
+#Run the app
+stp2: npm start
+      got error please follow check below info
+      after creating app first go inside the folder (cd my-app) then try again.
+      if you are lucky it will take less time therwise wait to local host url with port number 
+      for successful run following logs you can see in console
+      Starting the development server...
+      Compiled successfully!
+
+      You can now view my-app in the browser.
+
+      Local:            http://localhost:3000/
+      On Your Network:  http://<ipaddress>:3000/
+      
+#Build (for Deployment)
+stpe3: npm run build
+      mostly no error if you didn't touch generated code
+#Deployment
+step4: 
